@@ -35,6 +35,8 @@ subtest 'basic' => sub {
   }
 
   is [sort @found_files], [qw(
+    .github/workflows/ci.yml
+    .gitignore
     Changes
     alienfile
     dist.ini
